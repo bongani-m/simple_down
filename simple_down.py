@@ -55,4 +55,4 @@ def parser(text):
 	text = links(text)
 	text = links(text)
 	text = para(text)
-	return text
+	return text.replace('<p></p>', '')
